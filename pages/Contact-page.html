@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="pgireconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/pages/About-page.html">About</a></li>
+            <li><a href="/pages/Projects-page.html">Projects</a></li>
+            <li><a href="/pages/Contact-page.html">Contact</a></li>
+        </ul>
+    </nav>
+        <div class="hamburger" onclick="togglemenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Contact</h1>
+            <form action="https://formspree.io/f/mblyqdlg" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p class="no-spam-warning">DO NOT SPAM – Genuine messages only, please.</p>
+        </div>
+    </section>
+</body> 
+</html>
