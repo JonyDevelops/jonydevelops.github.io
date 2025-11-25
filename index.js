@@ -18,5 +18,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-cd "c:\Users\Jony & Marianna\Documents\Repos\Personal Portfolio Website"
